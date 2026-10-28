@@ -1,0 +1,36 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local credentials and runtime outputs
+.env
+.env.*
+!.env.example
+*.log
+outputs/
+runs/
+wandb/
+
+# Training data and raw extraction corpora are distributed separately
+data_utils/multi_pos_train*.json
+data_utils/valid.json
+mcnc_data/ollie_extraction_data_*.txt
+
+# Model checkpoints and pretrained weights
+*.pt
+*.pth
+*.ckpt
+*.bin

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 eva_mcnc.py --do-eval --checkpoint ./models/checkpoint.pt
